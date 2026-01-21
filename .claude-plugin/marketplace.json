@@ -1,0 +1,39 @@
+{
+  "name": "customable-plugins",
+  "owner": {
+    "name": "Customable",
+    "email": "plugins@customable.de"
+  },
+  "metadata": {
+    "description": "Extended Claude Code plugins by Customable",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "claude-mem",
+      "source": {
+        "source": "url",
+        "url": "https://git.customable.host/customable/claude-mem.git"
+      },
+      "description": "Persistent memory across Claude Code sessions - remembers your decisions, discoveries, and patterns",
+      "version": "9.0.5",
+      "author": {
+        "name": "Customable",
+        "email": "plugins@customable.de"
+      },
+      "homepage": "https://mem.customable.host",
+      "repository": "https://git.customable.host/customable/claude-mem",
+      "license": "MIT",
+      "keywords": [
+        "memory",
+        "persistence",
+        "context",
+        "qdrant",
+        "vector-search",
+        "observations",
+        "sessions"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
