@@ -16,7 +16,7 @@
         "url": "https://git.customable.host/customable/claude-mem.git"
       },
       "description": "Persistent memory across Claude Code sessions - remembers your decisions, discoveries, and patterns",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "author": {
         "name": "Customable",
         "email": "plugins@customable.de"
